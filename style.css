@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.over {
+    display: flex;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: "fonti";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+body {
+    font-family: "fonti";
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+}
+.iconredbull {
+    max-width: 370px;
+    width: 100%;
+    height: 48px;
+    overflow-y: hidden;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.redbull {
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+.background {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+   
+}
+.playyoutube > img {
+    width: 90px;
+    height: 65px;
+    margin-inline: auto;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.text {
+    width: 500px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.41);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    margin-top: 20px;
+}
+.textdiv {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+    margin-left: 14%;
+}
+p {
+    font-size: 13px;
+    margin-top: 3%;
+    text-align: start;
+}
+
+.hr2 {
+    width: 142px;
+    margin-top: 20px;
+}
+.inline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button1 {
+    width: 200px;
+    height: 46px;
+    border: solid 1px rgba(219, 10, 64, 1);
+    border-radius: 4px;
+    background-color: rgba(219, 10, 64, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.text1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.face {
+    width: 1500px;
+    margin-inline: auto;
+    margin-top: 2.5%;
+}
+.chapter {
+    margin-top: 20px;
+}
+.hr2 {
+    border-top: solid 3px rgba(66, 66, 66, 1);
+}
+.hr1 {
+    width: 142px;
+    margin-top: 20px;
+    border-top: solid 3px rgba(185, 19, 19, 1);
+} 
+
+.discover {
+    margin-top: 120px;
+    justify-content: center;
+    display: flex;
+}
+
+.div1 {
+    max-width: 1300px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.card-text {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 1%;
+}
+.read {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-text1 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 38%;
+}
+.card-text2 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 72%;
+}
+.div2 {
+    max-width: 1300px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.card-text3 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 2%;
+}
+.card-text4 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 35%;
+}
+.card-text5 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 72%;
+}
+.jumping-man {
+    width: 420px;
+    height: 675px;
+  }
+.skiing {
+    width: 420px;
+    height: 675px;
+  }
+.sand {
+    width: 420px;
+    height: 675px;
+}
+
+.hills {
+    width: 400px;
+    height: 673px;
+}
+
+.load {
+     width: 251px;
+     height: 53px;
+     background-color: rgba(33, 35, 96, 1);
+     color: rgba(255, 255, 255, 1);
+     font-size: 22px;
+     text-align: center;
+     border-radius: 5px;
+     border: none;
+     margin-top: 3%;
+     margin-bottom: 3%;
+}
+.more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 1920px;
+    height: 500px;
+    background-color: rgba(30, 40, 50, 1);
+}
+
+.ul2{ 
+    font-size: large;
+    margin-top: 5%;
+}
+.ul3 {
+    margin-left: 15%;
+    margin-top: 8%;
+}
+.footer1 {
+    background-image: url(icons/iconredbull.png);
+    background-repeat: no-repeat;
+    display: flex;
+    max-width: 1920px;
+    width: 1700px;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.find {
+    margin-top: 45%;
+    font-size: 15px;
+}
+
+.icon-footer {
+    height: 100px;
+    background-image: url(icons/social.png);
+    background-repeat: no-repeat;
+    margin-top: 2%;
+}
+.footer-bull {
+    width: 200px;
+    margin-top: 2%;
+    margin-right: 4%;
+    color: rgba(166, 166, 166, 1);
+    font-weight: 400px;
+    font-size: 14px;
+}
